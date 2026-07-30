@@ -157,7 +157,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     APP_NAME = environ.get('APP_NAME')
 else:
     ON_HEROKU = False
-BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'weekly-kippie-technik659-053cab2f.koyeb.app'))
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'disciplinary-clarine-jdnwkpec-24625418.koyeb.app'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
 URL = "https://{}/".format(FQDN)
 # ✅ PORT define karo (agar env me nahi mila to 8080 default)
@@ -178,9 +178,9 @@ else:
     
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'Trexofficialsbot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'Files3_Utsavtvbot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'Trexofficials'))
+name = str(environ.get('name', 'Utsavtvbot'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
