@@ -2045,7 +2045,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/VK_xUtsavTv"),
             InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+ccronHhJX7gzODZl")
        ],[
-            InlineKeyboardButton('• Support •', url="https://t.me/TrexSupportchatBot"),
+            InlineKeyboardButton('• Support •', url="https://t.me/UtsavTvBot"),
             InlineKeyboardButton('• 18+ ᴍᴏᴠɪᴇ •', url="https://t.me/")
        ],[
             InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/")
