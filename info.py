@@ -38,7 +38,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/Wdj.jpg')).split()  # Fsu
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8871292693,6667067260').split()] # Replace with the actual admin ID(s) to add
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6809312972,6667067260').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1004387643336').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1004264597363'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '0'))  # Bin channel id (make sure bot is admin)
@@ -101,9 +101,9 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+LTjPpNyLUEs3NDBl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+umQto9yMeONiODll')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kvijaylook')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Vj15bot')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+a4g9SkR3BNUxZjE1')
-OWNERID = int(os.environ.get('OWNERID', '8871292693'))  # Replace with the actual admin ID
+OWNERID = int(os.environ.get('OWNERID', '6809312972'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
