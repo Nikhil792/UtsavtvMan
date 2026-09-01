@@ -2040,15 +2040,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+g0V75AVfPwsxMjQ1")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+umQto9yMeONiODll")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/VK_xUtsavTv"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+ccronHhJX7gzODZl")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/+LTjPpNyLUEs3NDBl"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+a4g9SkR3BNUxZjE1 ")
        ],[
-            InlineKeyboardButton('• Support •', url="https://t.me/UtsavTvBot"),
-            InlineKeyboardButton('• 18+ ᴍᴏᴠɪᴇ •', url="https://t.me/")
+            InlineKeyboardButton('• Support •', url="https://t.me/kvijaylookbot"),
+            InlineKeyboardButton('• NO Link •', url="https://t.me/")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/")
+            InlineKeyboardButton('• No Link •', url="https://t.me/")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
