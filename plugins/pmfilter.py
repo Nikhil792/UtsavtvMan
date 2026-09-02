@@ -2043,12 +2043,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+umQto9yMeONiODll")
        ],[
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/+LTjPpNyLUEs3NDBl"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+a4g9SkR3BNUxZjE1 ")
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+_PNRECEaQD1jZjA9")
        ],[
             InlineKeyboardButton('• Support •', url="https://t.me/kvijaylookbot"),
-            InlineKeyboardButton('• NO Link •', url="https://t.me/kvijaylookbot")
+            InlineKeyboardButton('• ᴍᴏᴠɪᴇ •', url="https://t.me/+umQto9yMeONiODll")
        ],[
-            InlineKeyboardButton('• No Link •', url="https://t.me/kvijaylookbot")
+            InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/+umQto9yMeONiODll")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
@@ -2185,8 +2185,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ', callback_data='group_info'),
             InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅs •', callback_data='main')
         ], [
-            InlineKeyboardButton('• Developer', user_id=int(6667067260)),
-            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/Trexowner")
+            InlineKeyboardButton('• ᴅᴇᴠᴇʟᴏᴘᴇʀ', user_id=int(6809312972)),
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/Vj15bot")
         ], [
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
