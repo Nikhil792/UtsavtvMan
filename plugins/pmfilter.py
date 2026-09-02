@@ -2046,9 +2046,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+a4g9SkR3BNUxZjE1 ")
        ],[
             InlineKeyboardButton('• Support •', url="https://t.me/kvijaylookbot"),
-            InlineKeyboardButton('• NO Link •', url="https://t.me/")
+            InlineKeyboardButton('• NO Link •', url="https://t.me/kvijaylookbot")
        ],[
-            InlineKeyboardButton('• No Link •', url="https://t.me/")
+            InlineKeyboardButton('• No Link •', url="https://t.me/kvijaylookbot")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
@@ -2186,7 +2186,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅs •', callback_data='main')
         ], [
             InlineKeyboardButton('• Developer', user_id=int(6809312972)),
-            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/Vj15bot")
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ •', url="t.me/kvijaylookbot")
         ], [
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
