@@ -82,17 +82,17 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 # Verification Settings
 # ============================
-VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
+VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24))  # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003041898413'))  # Log channel id (make sure bot is admin)
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1004264597363'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_verifylink')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '53229e400eba26696058cd2640bd120261864a01')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Liteshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '3c6d5dd16104f5c7164aac8727557ec91e81caea')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_verifylink')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
@@ -102,7 +102,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+LTjPpNyLUEs3NDBl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+umQto9yMeONiODll')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Vj15bot')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+a4g9SkR3BNUxZjE1')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+kxx85A6IaRdlMTg1')
 OWNERID = int(os.environ.get('OWNERID', '6809312972'))  # Replace with the actual admin ID
 
 # ============================
@@ -157,7 +157,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 # Server & Web Configuration
 # ============================
 
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set Stream mode True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set Stream mode True or False
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
