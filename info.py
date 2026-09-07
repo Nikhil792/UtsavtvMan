@@ -85,7 +85,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24))  # Add time in hours
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1004264597363'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_verifylink')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
@@ -93,7 +93,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_verifylink')  
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Liteshort.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '3c6d5dd16104f5c7164aac8727557ec91e81caea')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_verifylink')  # Tutorial video link for opening shortlink website
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
