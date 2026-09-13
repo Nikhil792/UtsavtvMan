@@ -2043,9 +2043,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+umQto9yMeONiODll")
        ],[
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/+LTjPpNyLUEs3NDBl"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+_PNRECEaQD1jZjA9")
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+fDuTBBYVwXw2Mjdl")
        ],[
-            InlineKeyboardButton('• Support •', url="https://t.me/kvijaylookbot"),
+            InlineKeyboardButton('• Support •', url="https://t.me/UtsavTvSupportBot"),
             InlineKeyboardButton('• ᴍᴏᴠɪᴇ •', url="https://t.me/+umQto9yMeONiODll")
        ],[
             InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/+umQto9yMeONiODll")
